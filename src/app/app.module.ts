@@ -9,6 +9,7 @@ import { TemplateEventBindingComponent } from './template-event-binding/template
 import { TemplateTwoWayBindingComponent } from './template-two-way-binding/template-two-way-binding.component';
 import { FontResizerComponent } from './template-two-way-binding/font-resizer/font-resizer.component';
 import { TemplateNgIfComponent } from './template-ng-if/template-ng-if.component';
+import { TemplateNgForComponent } from './template-ng-for/template-ng-for.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TemplateNgIfComponent } from './template-ng-if/template-ng-if.component
     TemplateEventBindingComponent,
     TemplateTwoWayBindingComponent,
     FontResizerComponent,
-    TemplateNgIfComponent
+    TemplateNgIfComponent,
+    TemplateNgForComponent
   ],
   imports: [
     BrowserModule
