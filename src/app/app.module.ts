@@ -8,6 +8,7 @@ import { TemplateValueBindComponent } from './template-value-bind/template-value
 import { TemplateEventBindingComponent } from './template-event-binding/template-event-binding.component';
 import { TemplateTwoWayBindingComponent } from './template-two-way-binding/template-two-way-binding.component';
 import { FontResizerComponent } from './template-two-way-binding/font-resizer/font-resizer.component';
+import { TemplateNgIfComponent } from './template-ng-if/template-ng-if.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FontResizerComponent } from './template-two-way-binding/font-resizer/fo
     TemplateValueBindComponent,
     TemplateEventBindingComponent,
     TemplateTwoWayBindingComponent,
-    FontResizerComponent
+    FontResizerComponent,
+    TemplateNgIfComponent
   ],
   imports: [
     BrowserModule
