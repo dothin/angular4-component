@@ -15,6 +15,7 @@ import { TemplateNgSwitchComponent } from './template-ng-switch/template-ng-swit
 import { TemplateNgClassComponent } from './template-ng-class/template-ng-class.component';
 import { TemplateNgStyleComponent } from './template-ng-style/template-ng-style.component';
 import { TemplateNgModelComponent } from './template-ng-model/template-ng-model.component';
+import { TemplatPipeComponent } from './templat-pipe/templat-pipe.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TemplateNgModelComponent } from './template-ng-model/template-ng-model.
     TemplateNgSwitchComponent,
     TemplateNgClassComponent,
     TemplateNgStyleComponent,
-    TemplateNgModelComponent
+    TemplateNgModelComponent,
+    TemplatPipeComponent
   ],
   imports: [
     BrowserModule,
