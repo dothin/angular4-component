@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TemplateInterporationComponent } from './template-interporation/template-interporation.component';
@@ -32,7 +33,8 @@ import { TemplateNgModelComponent } from './template-ng-model/template-ng-model.
     TemplateNgModelComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
