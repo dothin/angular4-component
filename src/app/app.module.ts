@@ -11,6 +11,7 @@ import { FontResizerComponent } from './template-two-way-binding/font-resizer/fo
 import { TemplateNgIfComponent } from './template-ng-if/template-ng-if.component';
 import { TemplateNgForComponent } from './template-ng-for/template-ng-for.component';
 import { TemplateNgSwitchComponent } from './template-ng-switch/template-ng-switch.component';
+import { TemplateNgClassComponent } from './template-ng-class/template-ng-class.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TemplateNgSwitchComponent } from './template-ng-switch/template-ng-swit
     FontResizerComponent,
     TemplateNgIfComponent,
     TemplateNgForComponent,
-    TemplateNgSwitchComponent
+    TemplateNgSwitchComponent,
+    TemplateNgClassComponent
   ],
   imports: [
     BrowserModule
