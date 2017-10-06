@@ -16,6 +16,7 @@ import { TemplateNgClassComponent } from './template-ng-class/template-ng-class.
 import { TemplateNgStyleComponent } from './template-ng-style/template-ng-style.component';
 import { TemplateNgModelComponent } from './template-ng-model/template-ng-model.component';
 import { TemplatPipeComponent } from './templat-pipe/templat-pipe.component';
+import { TemplateSafeNavComponent } from './template-safe-nav/template-safe-nav.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TemplatPipeComponent } from './templat-pipe/templat-pipe.component';
     TemplateNgClassComponent,
     TemplateNgStyleComponent,
     TemplateNgModelComponent,
-    TemplatPipeComponent
+    TemplatPipeComponent,
+    TemplateSafeNavComponent
   ],
   imports: [
     BrowserModule,
