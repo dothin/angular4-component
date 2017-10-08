@@ -6,3 +6,4 @@
 - template 模板
 - lifecycle 生命周期
 - communication 通信
+- animation 动效
