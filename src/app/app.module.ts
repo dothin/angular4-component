@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { TestNgOnchangesComponent } from './test-ng-onchanges/test-ng-onchanges.component';
 import { Child111Component } from './test-ng-onchanges/child111/child111.component';
+import { Child222Component } from './life-cycle/child222/child222.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LifeCycleComponent,
     TestNgOnchangesComponent,
-    Child111Component
+    Child111Component,
+    Child222Component
 ],
   imports: [
     BrowserModule,
